@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
+	import { untrack } from 'svelte';
 	import ReceiptItem from './ReceiptItem.svelte';
 	import type { BudgetItem } from '$lib/types';
 
@@ -21,7 +22,7 @@
 		initiallyOpen?: boolean; // Whether the item should start expanded
 	}>();
 
-	let isOpen = $state(initiallyOpen || false);
+	let isOpen = $state(untrack(() => initiallyOpen) || false);
 
 	function toggle() {
 		if (item.c && item.c.length > 0) {
