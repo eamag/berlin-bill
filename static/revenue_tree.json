@@ -1,0 +1,2648 @@
+{
+    "meta": {
+        "total_budget": 101379051600.0,
+        "type": "revenue"
+    },
+    "data": [
+        {
+            "l": "Einnahmen aus Steuern und steuerähnlichen Abgaben sowie EU-Eigenmittel",
+            "v": 56256171000,
+            "c": [
+                {
+                    "l": "Gemeinschaftsteuern und Gewerbesteuerumlage",
+                    "v": 38718575000,
+                    "c": [
+                        {
+                            "l": "Umsatzsteuer",
+                            "v": 17567375000,
+                            "c": [
+                                {
+                                    "l": "Umsatzsteuer",
+                                    "code": "01500",
+                                    "v": 17567375000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Lohnsteuer",
+                            "v": 10918250000,
+                            "c": [
+                                {
+                                    "l": "Lohnsteuer",
+                                    "code": "01100",
+                                    "v": 10918250000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Einfuhrumsatzsteuer",
+                            "v": 3223000000,
+                            "c": [
+                                {
+                                    "l": "Einfuhrumsatzsteuer",
+                                    "code": "01600",
+                                    "v": 3223000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Veranlagte Einkommensteuer",
+                            "v": 2885750000,
+                            "c": [
+                                {
+                                    "l": "Veranlagte Einkommensteuer",
+                                    "code": "01200",
+                                    "v": 2885750000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Körperschaftsteuer",
+                            "v": 2405000000,
+                            "c": [
+                                {
+                                    "l": "Körperschaftsteuer",
+                                    "code": "01400",
+                                    "v": 2405000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Nicht veranlagte Steuern vom Ertrag (ohne Abgeltungsteuer auf Zins- und Veräußerungserträge)",
+                            "v": 910000000,
+                            "c": [
+                                {
+                                    "l": "Nicht veranlagte Steuern vom Ertrag (ohne Gruppe 018)",
+                                    "code": "01300",
+                                    "v": 910000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Abgeltungsteuer auf Zins- und Veräußerungserträge",
+                            "v": 497200000,
+                            "c": [
+                                {
+                                    "l": "Abgeltungsteuer auf Zins- und Veräußerungserträge",
+                                    "code": "01800",
+                                    "v": 497200000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Gewerbesteuerumlage",
+                            "v": 312000000,
+                            "c": [
+                                {
+                                    "l": "Gewerbesteuerumlage an das Land",
+                                    "code": "01700",
+                                    "v": 312000000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Gemeindesteuern",
+                    "v": 14071660000,
+                    "c": [
+                        {
+                            "l": "Gewerbesteuer",
+                            "v": 6240000000,
+                            "c": [
+                                {
+                                    "l": "Gewerbesteuer",
+                                    "code": "07500",
+                                    "v": 6240000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Gemeindeanteil an der Lohnsteuer und der veranlagten Einkommensteuer",
+                            "v": 4872000000,
+                            "c": [
+                                {
+                                    "l": "Gemeindeanteil an der Lohnsteuer und der veranlagten Einkommensteuer",
+                                    "code": "07100",
+                                    "v": 4872000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Grundsteuer B",
+                            "v": 1750000000,
+                            "c": [
+                                {
+                                    "l": "Grundsteuer B",
+                                    "code": "07300",
+                                    "v": 1750000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Gemeindeanteil an der Umsatzsteuer",
+                            "v": 721000000,
+                            "c": [
+                                {
+                                    "l": "Gemeindeanteil an der Umsatzsteuer",
+                                    "code": "07600",
+                                    "v": 721000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Gemeindesteuern (nur Stadtstaaten)",
+                            "v": 249000000,
+                            "c": [
+                                {
+                                    "l": "Übernachtungsteuer",
+                                    "code": "08901",
+                                    "v": 209000000
+                                },
+                                {
+                                    "l": "Zweitwohnungsteuer",
+                                    "code": "08900",
+                                    "v": 40000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Gemeindeanteil an der Abgeltungsteuer auf Zins- und Veräußerungserträge",
+                            "v": 135600000,
+                            "c": [
+                                {
+                                    "l": "Gemeindeanteil an der Abgeltungsteuer auf Zins- und Veräußerungserträge",
+                                    "code": "07800",
+                                    "v": 135600000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Vergnügungsteuern",
+                            "v": 80000000,
+                            "c": [
+                                {
+                                    "l": "Vergnügungsteuer",
+                                    "code": "08200",
+                                    "v": 80000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Hundesteuer",
+                            "v": 24000000,
+                            "c": [
+                                {
+                                    "l": "Hundesteuer",
+                                    "code": "08300",
+                                    "v": 24000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Grundsteuer A",
+                            "v": 60000,
+                            "c": [
+                                {
+                                    "l": "Grundsteuer A",
+                                    "code": "07200",
+                                    "v": 60000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Landessteuern",
+                    "v": 3374936000,
+                    "c": [
+                        {
+                            "l": "Grunderwerbsteuer",
+                            "v": 1960000000,
+                            "c": [
+                                {
+                                    "l": "Grunderwerbsteuer",
+                                    "code": "05300",
+                                    "v": 1960000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Erbschaftsteuer",
+                            "v": 1163336000,
+                            "c": [
+                                {
+                                    "l": "Erbschaftsteuer",
+                                    "code": "05200",
+                                    "v": 1163336000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Lotteriesteuer",
+                            "v": 117000000,
+                            "c": [
+                                {
+                                    "l": "Lotteriesteuer",
+                                    "code": "05700",
+                                    "v": 117000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Andere Steuern nach dem Rennwett- und Lotteriegesetz",
+                            "v": 58000000,
+                            "c": [
+                                {
+                                    "l": "Sportwettensteuer",
+                                    "code": "05800",
+                                    "v": 35000000
+                                },
+                                {
+                                    "l": "Virtuelle Automatensteuer",
+                                    "code": "05801",
+                                    "v": 21000000
+                                },
+                                {
+                                    "l": "Online-Pokersteuer",
+                                    "code": "05802",
+                                    "v": 2000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Feuerschutzsteuer",
+                            "v": 48000000,
+                            "c": [
+                                {
+                                    "l": "Feuerschutzsteuer",
+                                    "code": "05900",
+                                    "v": 48000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Biersteuer",
+                            "v": 26000000,
+                            "c": [
+                                {
+                                    "l": "Biersteuer",
+                                    "code": "06100",
+                                    "v": 26000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Totalisatorsteuer",
+                            "v": 2600000,
+                            "c": [
+                                {
+                                    "l": "Totalisatorsteuer",
+                                    "code": "05500",
+                                    "v": 2600000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Steuerähnliche Abgaben",
+                    "v": 91000000,
+                    "c": [
+                        {
+                            "l": "Abgaben von Spielbanken",
+                            "v": 61000000,
+                            "c": [
+                                {
+                                    "l": "Spielbankabgabe",
+                                    "code": "09301",
+                                    "v": 61000000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige steuerähnliche Abgaben",
+                            "v": 30000000,
+                            "c": [
+                                {
+                                    "l": "Abwasserabgabe",
+                                    "code": "09901",
+                                    "v": 30000000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "l": "Einnahmen aus Schuldenaufnahmen, aus Zuweisungen und Zuschüssen für Investitionen, besondere Finanzierungseinnahmen",
+            "v": 28669400000,
+            "c": [
+                {
+                    "l": "Haushaltstechnische Verrechnungen",
+                    "v": 18367107600,
+                    "c": [
+                        {
+                            "l": "Interne Zahlungsströme (nur Berlin und Bremen)",
+                            "v": 18348437000,
+                            "c": [
+                                {
+                                    "l": "Zuweisungen für Ausgaben (ohne Investitionen)",
+                                    "code": "38630",
+                                    "v": 16801476000
+                                },
+                                {
+                                    "l": "Zuweisungen für Investitionen",
+                                    "code": "38530",
+                                    "v": 732781000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Marzahn-Hellersdorf",
+                                    "code": "38410",
+                                    "v": 57444000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Neukölln",
+                                    "code": "38408",
+                                    "v": 56262000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Pankow",
+                                    "code": "38403",
+                                    "v": 53622000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Charlottenburg-Wilmersdorf",
+                                    "code": "38404",
+                                    "v": 50988000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Mitte",
+                                    "code": "38401",
+                                    "v": 50682000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Steglitz-Zehlendorf",
+                                    "code": "38406",
+                                    "v": 50368000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Lichtenberg",
+                                    "code": "38411",
+                                    "v": 49602000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Tempelhof-Schöneberg",
+                                    "code": "38407",
+                                    "v": 48668000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Friedrichshain-Kreuzberg",
+                                    "code": "38402",
+                                    "v": 46548000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Treptow-Köpenick",
+                                    "code": "38409",
+                                    "v": 46454000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Reinickendorf",
+                                    "code": "38412",
+                                    "v": 44448000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Gebäudekosten vom Bezirk Spandau",
+                                    "code": "38405",
+                                    "v": 42200000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Mitte",
+                                    "code": "38441",
+                                    "v": 22038000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Neukölln",
+                                    "code": "38448",
+                                    "v": 20792000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Charlottenburg-Wilmersdorf",
+                                    "code": "38444",
+                                    "v": 20714000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Spandau",
+                                    "code": "38445",
+                                    "v": 20490000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Tempelhof-Schöneberg",
+                                    "code": "38447",
+                                    "v": 19900000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Steglitz-Zehlendorf",
+                                    "code": "38446",
+                                    "v": 19766000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Reinickendorf",
+                                    "code": "38452",
+                                    "v": 19130000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Friedrichshain-Kreuzberg",
+                                    "code": "38442",
+                                    "v": 16468000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Pankow",
+                                    "code": "38443",
+                                    "v": 15608000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Treptow-Köpenick",
+                                    "code": "38449",
+                                    "v": 13074000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Lichtenberg",
+                                    "code": "38451",
+                                    "v": 12342000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Pensionen vom Bezirk Marzahn-Hellersdorf",
+                                    "code": "38450",
+                                    "v": 11432000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Pankow",
+                                    "code": "38423",
+                                    "v": 622000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Neukölln",
+                                    "code": "38428",
+                                    "v": 524000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Treptow-Köpenick",
+                                    "code": "38429",
+                                    "v": 496000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Marzahn-Hellersdorf",
+                                    "code": "38430",
+                                    "v": 496000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Mitte",
+                                    "code": "38421",
+                                    "v": 476000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Tempelhof-Schöneberg",
+                                    "code": "38427",
+                                    "v": 466000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Lichtenberg",
+                                    "code": "38431",
+                                    "v": 444000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Steglitz-Zehlendorf",
+                                    "code": "38426",
+                                    "v": 392000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Spandau",
+                                    "code": "38425",
+                                    "v": 370000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Friedrichshain-Kreuzberg",
+                                    "code": "38422",
+                                    "v": 294000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Reinickendorf",
+                                    "code": "38432",
+                                    "v": 294000
+                                },
+                                {
+                                    "l": "Verrechnungen für kalkulatorische Zinsen Mobilien vom Bezirk Charlottenburg-Wilmersdorf",
+                                    "code": "38424",
+                                    "v": 266000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Verrechnungen zwischen Kapiteln",
+                            "v": 18670600,
+                            "c": [
+                                {
+                                    "l": "Verrechnungen von kommunalen Anteilen an Infrastrukturmaßnahmen im Rahmen der Europäischen Förderung",
+                                    "code": "38103",
+                                    "v": 14937000
+                                },
+                                {
+                                    "l": "Verrechnungen für zweckgebundene Ausgaben",
+                                    "code": "38190",
+                                    "v": 2375700
+                                },
+                                {
+                                    "l": "Allgemeine interne Verrechnungen",
+                                    "code": "38101",
+                                    "v": 574000
+                                },
+                                {
+                                    "l": "Verrechnungen von kommunalen Anteilen an Infrastrukturmaßnahmen der GRW",
+                                    "code": "38105",
+                                    "v": 400000
+                                },
+                                {
+                                    "l": "Saldoausgleich für interne Verrechnungen",
+                                    "code": "38100",
+                                    "v": 383900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Schuldenaufnahmen am Kreditmarkt",
+                    "v": 5176418000,
+                    "c": [
+                        {
+                            "l": "Schuldenaufnahmen auf dem sonstigen Kreditmarkt im Inland",
+                            "v": 5176418000,
+                            "c": [
+                                {
+                                    "l": "Kreditmarktmittel",
+                                    "code": "32500",
+                                    "v": 5176418000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Entnahmen aus Rücklagen, Fonds und Stöcken",
+                    "v": 3395154400,
+                    "c": [
+                        {
+                            "l": "Entnahmen aus sonstigen Rücklagen",
+                            "v": 2937794400,
+                            "c": [
+                                {
+                                    "l": "Entnahme aus der Haushaltsentlastungsrücklage",
+                                    "code": "35905",
+                                    "v": 550000000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage zur Vorsorge im Zusammenhang mit Energiekostensteigerungen im öffentlichen und privaten Bereich",
+                                    "code": "35923",
+                                    "v": 412050000
+                                },
+                                {
+                                    "l": "Entnahme aus der Resilienzrücklage",
+                                    "code": "35926",
+                                    "v": 375000000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage Innovationsförderfonds",
+                                    "code": "35907",
+                                    "v": 353510000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage nach § 62 LHO",
+                                    "code": "35903",
+                                    "v": 301678000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage zur Vorsorge von Baukostensteigerungen",
+                                    "code": "35924",
+                                    "v": 226000000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage für die Landesanstalt Schienenfahrzeuge Berlin (LSFB)",
+                                    "code": "35904",
+                                    "v": 200000000
+                                },
+                                {
+                                    "l": "Entnahme aus der Zensusrücklage",
+                                    "code": "35925",
+                                    "v": 167189000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage \"Absicherung des Betriebs der verfahrensunabhängigen IKT und zur Umsetzung des EGovG\"",
+                                    "code": "35940",
+                                    "v": 122000000
+                                },
+                                {
+                                    "l": "Entnahme aus der Ergebnisrücklage",
+                                    "code": "35911",
+                                    "v": 107578000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage Schienengebundener Verkehr und schienengebundener ÖPNV",
+                                    "code": "35918",
+                                    "v": 71001000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage Verstärkungsmittel",
+                                    "code": "35916",
+                                    "v": 29500000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage pauschale Zuweisung",
+                                    "code": "35909",
+                                    "v": 19254000
+                                },
+                                {
+                                    "l": "Zweckgebundene Entnahme aus dem Geldbestand",
+                                    "code": "35990",
+                                    "v": 1497300
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage nach § 7 Abs. 5 Nrn. 3 bis 6 Schulgesetz (Sachausgaben)",
+                                    "code": "35922",
+                                    "v": 770100
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage für Sonderinvestitionen",
+                                    "code": "35910",
+                                    "v": 517000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage nach § 7 Abs. 5 Nrn. 1 und 2 Schulgesetz (Sachausgaben)",
+                                    "code": "35921",
+                                    "v": 152000
+                                },
+                                {
+                                    "l": "Entnahme aus dem Geldbestand",
+                                    "code": "35902",
+                                    "v": 70000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage nach § 7 Schulgesetz- Personalausgaben",
+                                    "code": "35920",
+                                    "v": 18000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage der Ausgleichsabgabe nach dem Sozialgesetzbuch-Neuntes Buch-",
+                                    "code": "35998",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage für die Auskehr von Verkaufserlösen nach dem Investitionsvorranggesetz",
+                                    "code": "35906",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage für den Erwerb von Grundstücken im Rahmen des Grundstücksankaufsfonds",
+                                    "code": "35941",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage Gesellschafterdarlehen an die HOWOGE",
+                                    "code": "35942",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Entnahme aus der Rücklage für Kapitalzuführungen an Wohnungsbaugesellschaften",
+                                    "code": "35943",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Entnahmen aus Konjunkturausgleichsrücklage",
+                            "v": 457360000,
+                            "c": [
+                                {
+                                    "l": "Entnahme aus der Konjunkturausgleichsrücklage",
+                                    "code": "35501",
+                                    "v": 457360000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Zuweisungen für Investitionen aus dem öffentlichen Bereich",
+                    "v": 1182391000,
+                    "c": [
+                        {
+                            "l": "Zuweisungen für Investitionen vom Bund",
+                            "v": 759024000,
+                            "c": [
+                                {
+                                    "l": "Zuweisungen des Bundes für Investitionen",
+                                    "code": "33102",
+                                    "v": 285608000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes zur Gemeinschaftsaufgabe Verbesserung der regionalen Wirtschaftsstruktur",
+                                    "code": "33191",
+                                    "v": 200000000
+                                },
+                                {
+                                    "l": "Zuweisungen aus dem Mineralölsteueraufkommen",
+                                    "code": "33103",
+                                    "v": 95270000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für städtebauliche Gesamtmaßnahmen",
+                                    "code": "33131",
+                                    "v": 82827000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für Baumaßnahmen",
+                                    "code": "33121",
+                                    "v": 53983000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes nach Art. 91 b Grundgesetz für Forschungsbauten an Hochschulen",
+                                    "code": "33112",
+                                    "v": 13540000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für den Investitionspakt",
+                                    "code": "33130",
+                                    "v": 12230000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen vom Bund für Investitionen",
+                                    "code": "33190",
+                                    "v": 7980000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für Brücken- und Tunnelbauten",
+                                    "code": "33107",
+                                    "v": 6500000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für sonstige Investitionen",
+                                    "code": "33122",
+                                    "v": 1074000
+                                },
+                                {
+                                    "l": "Zuweisungen aus der Bundesförderung für effiziente Gebäude - Nichtwohngebäude",
+                                    "code": "33104",
+                                    "v": 10000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen vom Bund im Rahmen von Sonderprogrammen für Investitionen",
+                                    "code": "33193",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Zuweisungen für Investitionen von Sondervermögen",
+                            "v": 423367000,
+                            "c": [
+                                {
+                                    "l": "Zuweisungen für Investitionen vom Sondervermögen \"Schulbaufinanzierungsfonds\"",
+                                    "code": "33407",
+                                    "v": 293000000
+                                },
+                                {
+                                    "l": "Zuweisungen für Investitionen von Sondervermögen des Bundes",
+                                    "code": "33401",
+                                    "v": 130363000
+                                },
+                                {
+                                    "l": "Zuweisungen für Investitionen von Sondervermögen des Bundes zum Ausbau der Kinderbetreuung",
+                                    "code": "33493",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Zuweisungen für Investitionen aus dem Bundesprogramm zum Ausbau der Kindertagesbetreuung",
+                                    "code": "33494",
+                                    "v": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Beiträge und sonstige Zuschüsse für Investitionen",
+                    "v": 284963000,
+                    "c": [
+                        {
+                            "l": "Sonstige Zuschüsse für Investitionen aus dem Inland",
+                            "v": 202920000,
+                            "c": [
+                                {
+                                    "l": "Zuweisungen der KfW für den Anteil des Bundes an den Darlehen nach dem Bundesausbildungsförderungsgesetz",
+                                    "code": "34205",
+                                    "v": 200000000
+                                },
+                                {
+                                    "l": "Sonstige zweckgebundene Einnahmen für Investitionen",
+                                    "code": "34290",
+                                    "v": 2616000
+                                },
+                                {
+                                    "l": "Zuschüsse für Investitionen",
+                                    "code": "34201",
+                                    "v": 300000
+                                },
+                                {
+                                    "l": "Erbschaften für Investitionen",
+                                    "code": "34299",
+                                    "v": 4000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Zuschüsse für Investitionen von der EU",
+                            "v": 73240000,
+                            "c": [
+                                {
+                                    "l": "Zuschüsse der EU aus dem EFRE für Investitionen (Förderperiode 2021-2027)",
+                                    "code": "34697",
+                                    "v": 73240000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Beiträge",
+                            "v": 8803000,
+                            "c": [
+                                {
+                                    "l": "Beiträge für Investitionsmaßnahmen",
+                                    "code": "34102",
+                                    "v": 6755000
+                                },
+                                {
+                                    "l": "Erschließungsbeiträge",
+                                    "code": "34101",
+                                    "v": 1220000
+                                },
+                                {
+                                    "l": "Zweckgebundene Rückführungen von Sanierungsfördermitteln sowie Abführungen von Finanzierungsbeiträgen",
+                                    "code": "34192",
+                                    "v": 628000
+                                },
+                                {
+                                    "l": "Zweckgebundene Abführungen nach Aufhebung des Entwicklungsrechts",
+                                    "code": "34193",
+                                    "v": 200000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Globale Mehr- und Mindereinnahmen",
+                    "v": 258071000,
+                    "c": [
+                        {
+                            "l": "Globale Mehreinnahmen",
+                            "v": 258071000,
+                            "c": [
+                                {
+                                    "l": "Pauschale Mehreinnahmen",
+                                    "code": "37101",
+                                    "v": 258071000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Einnahmen aus Überschüssen der Vorjahre",
+                    "v": 5295000,
+                    "c": [
+                        {
+                            "l": "Einnahmen aus Überschüssen der Vorjahre",
+                            "v": 5295000,
+                            "c": [
+                                {
+                                    "l": "Überschuss des vorletzten Haushaltsjahres",
+                                    "code": "36020",
+                                    "v": 5295000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "l": "Einnahmen aus Zuweisungen und Zuschüssen mit Ausnahme für Investitionen",
+            "v": 12219539100,
+            "c": [
+                {
+                    "l": "Sonstige (zweckgebundene) Zuweisungen aus dem öffentlichen Bereich",
+                    "v": 7059157100,
+                    "c": [
+                        {
+                            "l": "Sonstige Zuweisungen vom Bund",
+                            "v": 6530651600,
+                            "c": [
+                                {
+                                    "l": "Anteil des Bundes an den Kosten der Unterkunft nach SGB II",
+                                    "code": "23105",
+                                    "v": 1914756000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an der Grundsicherung im Alter und bei Erwerbsminderung nach dem SGB XII",
+                                    "code": "23133",
+                                    "v": 1544393000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes nach dem Regionalisierungsgesetz",
+                                    "code": "23110",
+                                    "v": 1406760000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für den Hochschulpakt 2020 - Zukunftsvertrag Studium und Lehre stärken",
+                                    "code": "23159",
+                                    "v": 332012000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Zuschüssen nach dem Bundesausbildungsförderungsgesetz",
+                                    "code": "23146",
+                                    "v": 288400000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für konsumtive Zwecke",
+                                    "code": "23112",
+                                    "v": 248623000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für hauptstadtbedingte Mehraufwendungen für die innere Sicherheit",
+                                    "code": "23141",
+                                    "v": 240000000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Miet- und Lastenzuschüssen",
+                                    "code": "23130",
+                                    "v": 187010000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Leistungen nach dem Unterhaltsvorschussgesetz",
+                                    "code": "23131",
+                                    "v": 117600000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen vom Bund für konsumtive Zwecke",
+                                    "code": "23190",
+                                    "v": 43033000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Entschädigungsleistungen an Opfer von SED-Unrecht",
+                                    "code": "23129",
+                                    "v": 40146000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes im Rahmen der Exzellenzstrategie",
+                                    "code": "23109",
+                                    "v": 34685000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben durch den Bund",
+                                    "code": "23101",
+                                    "v": 31657600
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für konsumtive Zwecke aufgrund des Hauptstadtkulturfonds",
+                                    "code": "23116",
+                                    "v": 30000000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Entschädigungen an Opfer von Gewalttaten",
+                                    "code": "23125",
+                                    "v": 17097000
+                                },
+                                {
+                                    "l": "Ersatz von Verwaltungsausgaben durch den Bund",
+                                    "code": "23102",
+                                    "v": 16026000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Zuschüssen nach dem Aufstiegsfortbildungsförderungsgesetz",
+                                    "code": "23148",
+                                    "v": 15756000
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch den Bund",
+                                    "code": "23104",
+                                    "v": 8075000
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch den Bund bei Abordnungen und Versetzungen",
+                                    "code": "23103",
+                                    "v": 4440000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an der Unterhaltung von Sporteinrichtungen des Spitzensports",
+                                    "code": "23143",
+                                    "v": 3154000
+                                },
+                                {
+                                    "l": "Einnahmen zur Durchführung des Nationalen Stipendiumprogramms",
+                                    "code": "23193",
+                                    "v": 3000000
+                                },
+                                {
+                                    "l": "Anteil des Bundes für Barbetrag nach dem SGB XII",
+                                    "code": "23134",
+                                    "v": 1631800
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach dem strafrechtlichen Rehabilitierungsgesetz durch den Bund",
+                                    "code": "23128",
+                                    "v": 1432000
+                                },
+                                {
+                                    "l": "Zuweisungen des Bundes für die Gutachtenstelle für Gesundheitsberufe",
+                                    "code": "23191",
+                                    "v": 500000
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Leistungen wegen Impfschäden",
+                                    "code": "23123",
+                                    "v": 388000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben durch den Bund nach dem Bundesfreiwilligendienstgesetz",
+                                    "code": "23111",
+                                    "v": 28000
+                                },
+                                {
+                                    "l": "Ersatz von Pflegeversicherungsbeiträgen durch den Bund",
+                                    "code": "23132",
+                                    "v": 25600
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch den Bund",
+                                    "code": "23122",
+                                    "v": 14600
+                                },
+                                {
+                                    "l": "Anteil des Bundes an den Zuschüssen nach dem Heizkostenzuschussgesetz Bund",
+                                    "code": "23147",
+                                    "v": 4000
+                                },
+                                {
+                                    "l": "Sonstige Zuweisungen",
+                                    "code": "23152",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen vom Bund für konsumtive Zwecke im Rahmen von Sonderprogrammen",
+                                    "code": "23192",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Erstattungen von Sozialversicherungsträgern sowie von der Bundesagentur für Arbeit",
+                            "v": 240296600,
+                            "c": [
+                                {
+                                    "l": "Erstattung von Personal- und Sachkosten gem. SGB II durch die gemeinsamen Einrichtungen",
+                                    "code": "23608",
+                                    "v": 161107000
+                                },
+                                {
+                                    "l": "Erstattung von Einnahmen der Bundesagentur an kommunalen Träger für Leistungen nach dem SGB II",
+                                    "code": "23607",
+                                    "v": 28147000
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch Sozialversicherungsträger",
+                                    "code": "23602",
+                                    "v": 17974400
+                                },
+                                {
+                                    "l": "Leistungen für Versorgungsausgaben durch die Bundesagentur (SGB II)",
+                                    "code": "23612",
+                                    "v": 14620000
+                                },
+                                {
+                                    "l": "Erstattungen von Sozialversicherungsträgern nach dem Sozialgesetzbuch -Neuntes Buch-",
+                                    "code": "23698",
+                                    "v": 3950000
+                                },
+                                {
+                                    "l": "Erstattung von Verwaltungskosten durch die Jobcenter",
+                                    "code": "23611",
+                                    "v": 3694000
+                                },
+                                {
+                                    "l": "Ersatz von Jugendhilfe durch Sozialversicherungsträger",
+                                    "code": "23603",
+                                    "v": 3640400
+                                },
+                                {
+                                    "l": "Ersatz von Beihilfen für Dienstkräfte durch die Bundesagentur (SGB II)",
+                                    "code": "23613",
+                                    "v": 2694000
+                                },
+                                {
+                                    "l": "Erstattung von Kosten durch die Bundesagentur für Arbeit",
+                                    "code": "23605",
+                                    "v": 2276000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben durch Sozialversicherungsträger",
+                                    "code": "23601",
+                                    "v": 2191800
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch Sozialversicherungsträger",
+                                    "code": "23610",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Zuweisungen von Ländern",
+                            "v": 237022000,
+                            "c": [
+                                {
+                                    "l": "Anteil der Länder an den Ausgaben des Sekretariats der Kultusministerkonferenz",
+                                    "code": "23202",
+                                    "v": 62115000
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch die Länder nach dem Beamtenversorgungsgesetz",
+                                    "code": "23208",
+                                    "v": 42600000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen von Ländern für Zuschüsse an Dritte",
+                                    "code": "23294",
+                                    "v": 36990000
+                                },
+                                {
+                                    "l": "Anteil der Länder an Einzelmaßnahmen",
+                                    "code": "23231",
+                                    "v": 23118000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben durch die Länder",
+                                    "code": "23211",
+                                    "v": 20596800
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben durch die Länder für Gastschülerinnen und Gastschüler an Berliner Schulen",
+                                    "code": "23213",
+                                    "v": 17400000
+                                },
+                                {
+                                    "l": "Einnahmen aufgrund Fachkräfteeinwanderungsgesetz (FEG)",
+                                    "code": "23210",
+                                    "v": 9381000
+                                },
+                                {
+                                    "l": "Ersatz von Verwaltungsausgaben durch die Länder für die Gutachtenstelle für Gesundheitsberufe",
+                                    "code": "23209",
+                                    "v": 8995000
+                                },
+                                {
+                                    "l": "Einnahmen aus mess- und eichtechnischen Dienstleistungen",
+                                    "code": "23232",
+                                    "v": 7482000
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch die Länder bei Abordnungen und Versetzungen",
+                                    "code": "23203",
+                                    "v": 4400000
+                                },
+                                {
+                                    "l": "Anteil der Länder an den Ausgaben",
+                                    "code": "23204",
+                                    "v": 3619000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen von Ländern für konsumtive Zwecke",
+                                    "code": "23290",
+                                    "v": 150000
+                                },
+                                {
+                                    "l": "Anteil der Länder an den Leistungen wegen Impfschäden",
+                                    "code": "23220",
+                                    "v": 96200
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch die Länder",
+                                    "code": "23207",
+                                    "v": 79000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Zuweisungen von Gemeinden und Gemeindeverbänden",
+                            "v": 39546900,
+                            "c": [
+                                {
+                                    "l": "Kommunale Kostenerstattung für Kinder anderer Bundesländer in Berliner Tageseinrichtungen",
+                                    "code": "23391",
+                                    "v": 25400000
+                                },
+                                {
+                                    "l": "Ersatz von Jugendhilfe von anderen Jugendhilfeträgern",
+                                    "code": "23302",
+                                    "v": 13826900
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe von anderen Sozialhilfeträgern",
+                                    "code": "23301",
+                                    "v": 320000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Zuweisungen von Sozialversicherungsträgern sowie von der Bundesagentur für Arbeit",
+                            "v": 9060000,
+                            "c": [
+                                {
+                                    "l": "Zweckgebundene Einnahmen von Sozialversicherungsträgern und der Bundesagentur für Arbeit für konsumtive Zwecke",
+                                    "code": "23590",
+                                    "v": 9060000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Zuweisungen von Sondervermögen",
+                            "v": 2580000,
+                            "c": [
+                                {
+                                    "l": "Abführung aus dem Ausgleichsfonds gem. § 32 Abs. 2 Pflegeberufereformgesetz (Verwaltungskostenpauschale)",
+                                    "code": "23401",
+                                    "v": 2580000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Allgemeine (nicht zweckgebundene) Zuweisungen aus dem öffentlichen Bereich",
+                    "v": 4147610000,
+                    "c": [
+                        {
+                            "l": "Allgemeine Zuweisungen vom Bund",
+                            "v": 4147610000,
+                            "c": [
+                                {
+                                    "l": "Bundesergänzungszuweisungen nach § 11 Abs. 2 FAG",
+                                    "code": "21102",
+                                    "v": 3603000000
+                                },
+                                {
+                                    "l": "Ausgleichszahlungen des Bundes für entgehende Kfz-Steuer",
+                                    "code": "21105",
+                                    "v": 423108000
+                                },
+                                {
+                                    "l": "Bundesergänzungszuweisungen nach § 11 Abs. 4 FAG",
+                                    "code": "21103",
+                                    "v": 121502000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Sonstige Zuschüsse aus sonstigen Bereichen",
+                    "v": 535756500,
+                    "c": [
+                        {
+                            "l": "Sonstige Erstattungen aus dem Inland",
+                            "v": 461024700,
+                            "c": [
+                                {
+                                    "l": "Ersatz von Ausgaben",
+                                    "code": "28101",
+                                    "v": 273994400
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach dem Unterhaltsvorschussgesetz",
+                                    "code": "28131",
+                                    "v": 54900000
+                                },
+                                {
+                                    "l": "Ersatz von Jugendhilfe durch andere",
+                                    "code": "28111",
+                                    "v": 39837800
+                                },
+                                {
+                                    "l": "Ersatz von Sozialleistungen durch die Träger der Pflegeversicherung",
+                                    "code": "28135",
+                                    "v": 26686800
+                                },
+                                {
+                                    "l": "Ersatz von Bewirtschaftungsausgaben",
+                                    "code": "28103",
+                                    "v": 16477100
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch Hilfeempfängerinnen und Hilfeempfänger, Erbinnen und Erben",
+                                    "code": "28112",
+                                    "v": 8182400
+                                },
+                                {
+                                    "l": "Aufwendungsersatz und Kostenbeiträge bei Sozialleistungen",
+                                    "code": "28122",
+                                    "v": 8067000
+                                },
+                                {
+                                    "l": "Ersatz von Jugendhilfe durch andere Sozialleistungsträger",
+                                    "code": "28110",
+                                    "v": 7827000
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach AsylbLG durch andere Sozialleistungsträger",
+                                    "code": "28115",
+                                    "v": 5847600
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch andere Sozialleistungsträger",
+                                    "code": "28120",
+                                    "v": 5385200
+                                },
+                                {
+                                    "l": "Rückerstattung von pharmazeutischen Unternehmen nach dem Gesetz über Rabatte für Arzneimittel",
+                                    "code": "28119",
+                                    "v": 3460000
+                                },
+                                {
+                                    "l": "Erstattungen von Leistungen nach dem Bestattungsgesetz",
+                                    "code": "28133",
+                                    "v": 2809000
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch Unterhaltspflichtige",
+                                    "code": "28113",
+                                    "v": 2693800
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch andere",
+                                    "code": "28114",
+                                    "v": 1152200
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben",
+                                    "code": "28107",
+                                    "v": 865800
+                                },
+                                {
+                                    "l": "Ersatz von Wohngeld für Empfängerinnen und Empfänger von Leistungen nach dem SGB XII und AsylbLG",
+                                    "code": "28125",
+                                    "v": 765000
+                                },
+                                {
+                                    "l": "Ersatz von Teilhabeleistungen nach SGB IX durch andere Rehabilitationsträger",
+                                    "code": "28117",
+                                    "v": 567400
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben der Ordnungsstelle für Obdachlose",
+                                    "code": "28109",
+                                    "v": 400000
+                                },
+                                {
+                                    "l": "Ersatz von Sozialhilfe durch Arbeitgeberinnen, Arbeitgeber und Schadenersatzpflichtige",
+                                    "code": "28123",
+                                    "v": 364000
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach dem Bundesausbildungsförderungsgesetz",
+                                    "code": "28126",
+                                    "v": 324000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben für Verschickungen",
+                                    "code": "28108",
+                                    "v": 182000
+                                },
+                                {
+                                    "l": "Ersatz von Pflegegeld nach dem Pflegegesetz durch die Träger der Pflegeversicherung",
+                                    "code": "28132",
+                                    "v": 148000
+                                },
+                                {
+                                    "l": "Ersatz von Ausgaben für Dienst- und Sachleistungen",
+                                    "code": "28106",
+                                    "v": 43200
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach AsylbLG durch Unterhaltspflichtige",
+                                    "code": "28116",
+                                    "v": 31000
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach AsylbLG durch Arbeitgeber und Schadenersatzpflichtige",
+                                    "code": "28130",
+                                    "v": 12000
+                                },
+                                {
+                                    "l": "Eingliederungshilfen und sonstige Zuschüsse nach dem Sozialgesetzbuch -Neuntes Buch-",
+                                    "code": "28140",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Zuschüsse aus dem Inland",
+                            "v": 74731800,
+                            "c": [
+                                {
+                                    "l": "Sonstige zweckgebundene Einnahmen für konsumtive Zwecke",
+                                    "code": "28290",
+                                    "v": 74298800
+                                },
+                                {
+                                    "l": "Beiträge zur Selbstversicherung",
+                                    "code": "28202",
+                                    "v": 400000
+                                },
+                                {
+                                    "l": "Durchlaufspenden",
+                                    "code": "28291",
+                                    "v": 25000
+                                },
+                                {
+                                    "l": "Ersatz von Leistungen nach der Unterhaltssicherungsverordnung",
+                                    "code": "28232",
+                                    "v": 6000
+                                },
+                                {
+                                    "l": "Ausgleich zwischen den Integrationsämtern nach dem Sozialgesetzbuch -Neuntes Buch-",
+                                    "code": "28298",
+                                    "v": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Zuschüsse von der EU",
+                    "v": 361623000,
+                    "c": [
+                        {
+                            "l": "Sonstige Zuschüsse von der EU",
+                            "v": 353626000,
+                            "c": [
+                                {
+                                    "l": "Zweckgebundene Einnahmen aus dem Ausland für konsumtive Zwecke",
+                                    "code": "27290",
+                                    "v": 138755000
+                                },
+                                {
+                                    "l": "Zuschüsse der EU aus dem EFRE für konsumtive Zwecke (Förderperiode 2021-2027)",
+                                    "code": "27297",
+                                    "v": 136434000
+                                },
+                                {
+                                    "l": "Zuschüsse der EU aus dem ESF für konsumtive Zwecke (Förderperiode 2021-2027)",
+                                    "code": "27292",
+                                    "v": 52525000
+                                },
+                                {
+                                    "l": "Zuschüsse der EU aus dem EFRE für konsumtive Zwecke (Förderperiode 2014-2020)",
+                                    "code": "27296",
+                                    "v": 25902000
+                                },
+                                {
+                                    "l": "Zuschüsse der EU für konsumtive Zwecke",
+                                    "code": "27201",
+                                    "v": 6000
+                                },
+                                {
+                                    "l": "Zuschüsse der EU aus dem ESF für konsumtive Zwecke (Förderperiode 2014-2020)",
+                                    "code": "27295",
+                                    "v": 4000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Erstattungen von der EU",
+                            "v": 7997000,
+                            "c": [
+                                {
+                                    "l": "Ersatz von Ausgaben durch die EU",
+                                    "code": "27102",
+                                    "v": 7997000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Schuldendiensthilfen und Erstattungen von Verwaltungsausgaben aus sonstigen Bereichen",
+                    "v": 111294500,
+                    "c": [
+                        {
+                            "l": "Schuldendiensthilfen und Erstattungen von Verwaltungsausgaben aus dem Inland",
+                            "v": 111294500,
+                            "c": [
+                                {
+                                    "l": "Ersatz von Verwaltungsausgaben",
+                                    "code": "26101",
+                                    "v": 53294700
+                                },
+                                {
+                                    "l": "Erstattungen von Bauvorbereitungsmitteln",
+                                    "code": "26109",
+                                    "v": 42935000
+                                },
+                                {
+                                    "l": "Kostenerstattung für Brandenburger Kinder in schulischen Betreuungsangeboten in Berlin",
+                                    "code": "26105",
+                                    "v": 7915000
+                                },
+                                {
+                                    "l": "Ersatz von Personalausgaben durch sonstige Dienstherren",
+                                    "code": "26102",
+                                    "v": 2212000
+                                },
+                                {
+                                    "l": "Ersatz von Verwaltungsausgaben durch die Kita-Eigenbetriebe",
+                                    "code": "26118",
+                                    "v": 1592800
+                                },
+                                {
+                                    "l": "Ersatz von Versorgungsausgaben durch Stiftungen",
+                                    "code": "26115",
+                                    "v": 1496000
+                                },
+                                {
+                                    "l": "Erstattung von Personalausgaben durch Unternehmen",
+                                    "code": "26107",
+                                    "v": 1145000
+                                },
+                                {
+                                    "l": "Ersatz von Versorgungsausgaben durch Betriebe nach § 26 LHO",
+                                    "code": "26114",
+                                    "v": 575000
+                                },
+                                {
+                                    "l": "Ersatz von Bauverwaltungskosten",
+                                    "code": "26104",
+                                    "v": 102000
+                                },
+                                {
+                                    "l": "Leistungen für Versorgung durch sonstige Einrichtungen",
+                                    "code": "26117",
+                                    "v": 25000
+                                },
+                                {
+                                    "l": "Leistungen für Versorgung durch die öffentlichen Krankenhäuser",
+                                    "code": "26110",
+                                    "v": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Vermögensübertragungen, soweit nicht für Investitionen",
+                    "v": 4098000,
+                    "c": [
+                        {
+                            "l": "Vermögensübertragungen von Sonstigen aus dem Inland, soweit nicht Investitionszuschüsse",
+                            "v": 4098000,
+                            "c": [
+                                {
+                                    "l": "Zuflüsse aus Nachlässen",
+                                    "code": "29801",
+                                    "v": 4000000
+                                },
+                                {
+                                    "l": "Zuflüsse aus Stiftungen",
+                                    "code": "29802",
+                                    "v": 54000
+                                },
+                                {
+                                    "l": "Erbschaften für konsumtive Zwecke",
+                                    "code": "29899",
+                                    "v": 44000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "l": "Verwaltungseinnahmen, Einnahmen aus Schuldendienst und dgl.",
+            "v": 4233941500,
+            "c": [
+                {
+                    "l": "Verwaltungseinnahmen",
+                    "v": 2597923400,
+                    "c": [
+                        {
+                            "l": "Gebühren, sonstige Entgelte",
+                            "v": 2096847400,
+                            "c": [
+                                {
+                                    "l": "Gebühren, Geldstrafen, Geldbußen (nur für Justiz)",
+                                    "code": "11101",
+                                    "v": 624410000
+                                },
+                                {
+                                    "l": "Gebühren nach verschiedenen landesrechtlichen Vorschriften",
+                                    "code": "11152",
+                                    "v": 298616700
+                                },
+                                {
+                                    "l": "Gebühren nach Bundesrecht",
+                                    "code": "11153",
+                                    "v": 170984000
+                                },
+                                {
+                                    "l": "Verspätungs- und Säumniszuschläge",
+                                    "code": "11119",
+                                    "v": 140020000
+                                },
+                                {
+                                    "l": "Grundwasserentnahmeentgelt",
+                                    "code": "11147",
+                                    "v": 120000000
+                                },
+                                {
+                                    "l": "Gebühren für die Sondernutzung öffentlicher Straßen",
+                                    "code": "11155",
+                                    "v": 117708000
+                                },
+                                {
+                                    "l": "Ausgleichsabgaben nach dem Sozialgesetzbuch-Neuntes Buch-",
+                                    "code": "11198",
+                                    "v": 116000000
+                                },
+                                {
+                                    "l": "Kostenbeteiligung nach dem TKBG für Kinder in Tageseinrichtungen",
+                                    "code": "11157",
+                                    "v": 93035000
+                                },
+                                {
+                                    "l": "Gebühren nach der Verwaltungsgebührenordnung",
+                                    "code": "11105",
+                                    "v": 78376500
+                                },
+                                {
+                                    "l": "Erhebung von Gebühren im Bauwesen",
+                                    "code": "11148",
+                                    "v": 78128700
+                                },
+                                {
+                                    "l": "Kostenbeteiligung nach dem TKBG für Angebote im Rahmen der ergänzenden Förderung und Betreuung (ehemals Hort)",
+                                    "code": "11110",
+                                    "v": 45737200
+                                },
+                                {
+                                    "l": "Entgelte für Instrumental- und Vokalunterricht",
+                                    "code": "11124",
+                                    "v": 39557000
+                                },
+                                {
+                                    "l": "Sondernutzungsgebühren für Rohrkanalnetze der Berliner Wasserbetriebe (BWB)",
+                                    "code": "11154",
+                                    "v": 32582000
+                                },
+                                {
+                                    "l": "Gebühren nach der Gebührenordnung für die Benutzung polizeilicher Einrichtungen",
+                                    "code": "11151",
+                                    "v": 28528000
+                                },
+                                {
+                                    "l": "Entgelte für Bildungsangebote",
+                                    "code": "11120",
+                                    "v": 21851600
+                                },
+                                {
+                                    "l": "Gerichtskosten",
+                                    "code": "11109",
+                                    "v": 15810500
+                                },
+                                {
+                                    "l": "Gebühren im Gesundheits- und Sozialwesen sowie im Arbeits- und gesundheitlichen Verbraucherschutz",
+                                    "code": "11150",
+                                    "v": 12200200
+                                },
+                                {
+                                    "l": "Gebühren nach der Verordnung über die Erhebung von Gebühren im Umweltschutz",
+                                    "code": "11149",
+                                    "v": 9538600
+                                },
+                                {
+                                    "l": "Wertmarken für die Beförderung von behinderten Menschen",
+                                    "code": "11134",
+                                    "v": 8600000
+                                },
+                                {
+                                    "l": "Benutzungsentgelte",
+                                    "code": "11116",
+                                    "v": 5936600
+                                },
+                                {
+                                    "l": "Einnahmen aus der Ausstellung von Bewohnerparkausweisen und Gästevignetten",
+                                    "code": "11158",
+                                    "v": 5078000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen aus Entgelten",
+                                    "code": "11190",
+                                    "v": 4146800
+                                },
+                                {
+                                    "l": "Entgelte für Beköstigung, Betreuung und Unterkunft",
+                                    "code": "11112",
+                                    "v": 4120200
+                                },
+                                {
+                                    "l": "Ausgleichsabgabe nach dem Naturschutzrecht",
+                                    "code": "11193",
+                                    "v": 3471500
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen aus Entgelten für Integrationskurse",
+                                    "code": "11194",
+                                    "v": 3108000
+                                },
+                                {
+                                    "l": "Kostenbeiträge für Tagespflege und Unterbringung in privaten Kindertagesstätten",
+                                    "code": "11115",
+                                    "v": 2926400
+                                },
+                                {
+                                    "l": "Sonstige Entgelte",
+                                    "code": "11133",
+                                    "v": 2194000
+                                },
+                                {
+                                    "l": "Gebühren nach der Vermessungsgebührenordnung",
+                                    "code": "11159",
+                                    "v": 2159400
+                                },
+                                {
+                                    "l": "Ausgleichsabgaben und -beträge für Zweckentfremdung von Wohnraum",
+                                    "code": "11142",
+                                    "v": 2017000
+                                },
+                                {
+                                    "l": "Entgelte für Benutzerausweise",
+                                    "code": "11108",
+                                    "v": 1594600
+                                },
+                                {
+                                    "l": "Eintrittsgelder",
+                                    "code": "11122",
+                                    "v": 1513200
+                                },
+                                {
+                                    "l": "Entgelte für nichtstationäre Behandlung",
+                                    "code": "11111",
+                                    "v": 1371000
+                                },
+                                {
+                                    "l": "Ersatzvornahmen",
+                                    "code": "11102",
+                                    "v": 1238400
+                                },
+                                {
+                                    "l": "Ersatz von Prozesskosten",
+                                    "code": "11132",
+                                    "v": 1030800
+                                },
+                                {
+                                    "l": "Fischereiabgabe",
+                                    "code": "11139",
+                                    "v": 960000
+                                },
+                                {
+                                    "l": "Entgelte für die Inanspruchnahme des besonderen Fahrdienstes",
+                                    "code": "11174",
+                                    "v": 640000
+                                },
+                                {
+                                    "l": "Ausgleichszahlungen nach dem Wohnungsbindungsgesetz",
+                                    "code": "11107",
+                                    "v": 526000
+                                },
+                                {
+                                    "l": "Kostenbeiträge für Begegnungen, politische Bildungsarbeit, Gruppenfahrten",
+                                    "code": "11121",
+                                    "v": 261700
+                                },
+                                {
+                                    "l": "Kostenbeteiligung für in anderen Bundesländern betreute Kinder",
+                                    "code": "11117",
+                                    "v": 239400
+                                },
+                                {
+                                    "l": "Geldleistungen nach dem Wohnungsbindungsgesetz",
+                                    "code": "11143",
+                                    "v": 184000
+                                },
+                                {
+                                    "l": "Gebühren nach der Kostenverordnung zum Sprengstoffrecht",
+                                    "code": "11113",
+                                    "v": 180000
+                                },
+                                {
+                                    "l": "Ausgleichszahlungen zum Abbau der Fehlsubventionierung im Wohnungswesen",
+                                    "code": "11141",
+                                    "v": 109600
+                                },
+                                {
+                                    "l": "Einnahmen für das Mittagessen in Zusammenhang mit der vorschulischen Sprachförderung gemäß § 55 SchulG",
+                                    "code": "11118",
+                                    "v": 59200
+                                },
+                                {
+                                    "l": "Gebühren nach Bundesrecht im Rahmen der Gewerbezentralregister",
+                                    "code": "11156",
+                                    "v": 47600
+                                },
+                                {
+                                    "l": "Ablösungsbeträge nach der Bauordnung für Berlin",
+                                    "code": "11145",
+                                    "v": 44000
+                                },
+                                {
+                                    "l": "Verfallene Haftkautionen",
+                                    "code": "11104",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Ausgleichsabgabe im Rahmen der Kompensationsstrategie",
+                                    "code": "11146",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Beiträge zur Tierseuchenentschädigung",
+                                    "code": "11191",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Verwaltungseinnahmen",
+                            "v": 264809900,
+                            "c": [
+                                {
+                                    "l": "Weitere Leistungen der Spielbanken",
+                                    "code": "11951",
+                                    "v": 46000000
+                                },
+                                {
+                                    "l": "Rückzahlungen von Zuwendungen",
+                                    "code": "11921",
+                                    "v": 38307600
+                                },
+                                {
+                                    "l": "Einnahmen aus der Abschöpfung von Gewinnen aus Straftaten",
+                                    "code": "11923",
+                                    "v": 25874000
+                                },
+                                {
+                                    "l": "Erstattung von Steuerbeträgen",
+                                    "code": "11961",
+                                    "v": 21455000
+                                },
+                                {
+                                    "l": "Gewinnabgabe der Spielbanken",
+                                    "code": "11950",
+                                    "v": 20000000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge aus Sozialhilfeleistungen",
+                                    "code": "11936",
+                                    "v": 16865000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Leistungen nach dem Bundesausbildungsförderungsgesetz",
+                                    "code": "11946",
+                                    "v": 14942000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge",
+                                    "code": "11934",
+                                    "v": 12278000
+                                },
+                                {
+                                    "l": "Schadenersatzleistungen, Vertragsstrafen",
+                                    "code": "11903",
+                                    "v": 11303800
+                                },
+                                {
+                                    "l": "Ersatz von Aufwendungen für Maßnahmen nach dem Berliner Straßengesetz",
+                                    "code": "11904",
+                                    "v": 8671000
+                                },
+                                {
+                                    "l": "Rückzahlung von Zuschüssen an Schulen in freier Trägerschaft",
+                                    "code": "11917",
+                                    "v": 8002000
+                                },
+                                {
+                                    "l": "Hinterlegungen",
+                                    "code": "11930",
+                                    "v": 8000000
+                                },
+                                {
+                                    "l": "Rückzahlung von Prozess- und Verfahrenskostenhilfe",
+                                    "code": "11912",
+                                    "v": 3736400
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge aus Leistungen nach AsylbLG",
+                                    "code": "11956",
+                                    "v": 3696200
+                                },
+                                {
+                                    "l": "Abwendung der Kürzung von Versorgungsansprüchen",
+                                    "code": "11935",
+                                    "v": 3400000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge und sonstiger Leistungen aus der Ausgleichsabgabe nach dem SGB IX",
+                                    "code": "11998",
+                                    "v": 2800000
+                                },
+                                {
+                                    "l": "Verwertungen",
+                                    "code": "11909",
+                                    "v": 2620600
+                                },
+                                {
+                                    "l": "Verschiedene Einnahmen",
+                                    "code": "11979",
+                                    "v": 2452400
+                                },
+                                {
+                                    "l": "Abführungen nach Aufhebung des Entwicklungsrechts",
+                                    "code": "11913",
+                                    "v": 2000000
+                                },
+                                {
+                                    "l": "Abgeltung von dinglichen Rechten",
+                                    "code": "11944",
+                                    "v": 1683000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge aus Jugendhilfeleistungen",
+                                    "code": "11937",
+                                    "v": 1391200
+                                },
+                                {
+                                    "l": "Nebenforderungen bei öffentlich-rechtlichen Forderungen",
+                                    "code": "11972",
+                                    "v": 1143800
+                                },
+                                {
+                                    "l": "Rückflüsse auf Entschädigungen an Opfer von Gewalttaten",
+                                    "code": "11916",
+                                    "v": 1088000
+                                },
+                                {
+                                    "l": "Sonstige zweckgebundene Einnahmen",
+                                    "code": "11990",
+                                    "v": 890000
+                                },
+                                {
+                                    "l": "Einnahmen aus dem Betrieb der Top Level-Domain \"berlin\"",
+                                    "code": "11960",
+                                    "v": 834000
+                                },
+                                {
+                                    "l": "Ersatz von Betriebskosten",
+                                    "code": "11971",
+                                    "v": 694000
+                                },
+                                {
+                                    "l": "Sonstige Kostenbeiträge",
+                                    "code": "11938",
+                                    "v": 692000
+                                },
+                                {
+                                    "l": "Veröffentlichungen",
+                                    "code": "11901",
+                                    "v": 619800
+                                },
+                                {
+                                    "l": "Rückzahlung überzahlter Leistungen nach dem Aufstiegsfortbildungsförderungsgesetz (AFBG)",
+                                    "code": "11958",
+                                    "v": 600000
+                                },
+                                {
+                                    "l": "Werbeerlöse",
+                                    "code": "11924",
+                                    "v": 424600
+                                },
+                                {
+                                    "l": "Ablieferungen von Einnahmen aus Nebentätigkeit",
+                                    "code": "11902",
+                                    "v": 380600
+                                },
+                                {
+                                    "l": "Entgelte für nichtdienstliche Inanspruchnahmen",
+                                    "code": "11905",
+                                    "v": 294400
+                                },
+                                {
+                                    "l": "Verkauf von Altmaterial und ausgesonderten Sachen",
+                                    "code": "11981",
+                                    "v": 260600
+                                },
+                                {
+                                    "l": "Andere Rückzahlungen",
+                                    "code": "11977",
+                                    "v": 221200
+                                },
+                                {
+                                    "l": "Rückzahlungen von Entschädigungsleistungen",
+                                    "code": "11911",
+                                    "v": 212000
+                                },
+                                {
+                                    "l": "Zweckgebundene Einnahmen aus Eigenanteilen der Schülerinnen und Schüler für Lernmittel",
+                                    "code": "11992",
+                                    "v": 212000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Beträge nach dem Pflegegesetz",
+                                    "code": "11940",
+                                    "v": 155200
+                                },
+                                {
+                                    "l": "Nebenforderungen bei privatrechtlichen Forderungen",
+                                    "code": "11973",
+                                    "v": 122000
+                                },
+                                {
+                                    "l": "Rückflüsse auf Entschädigungen an Opfer aus SED-Unrecht",
+                                    "code": "11918",
+                                    "v": 113800
+                                },
+                                {
+                                    "l": "Rückzahlungen von Stipendien",
+                                    "code": "11915",
+                                    "v": 112000
+                                },
+                                {
+                                    "l": "Volkstümliche Veranstaltungen",
+                                    "code": "11920",
+                                    "v": 92000
+                                },
+                                {
+                                    "l": "Ersatz von Fernmeldegebühren",
+                                    "code": "11906",
+                                    "v": 46500
+                                },
+                                {
+                                    "l": "Rückzahlungen aus Kostensätzen aus Vorjahren",
+                                    "code": "11943",
+                                    "v": 24000
+                                },
+                                {
+                                    "l": "Abführung von Überschüssen",
+                                    "code": "11978",
+                                    "v": 22000
+                                },
+                                {
+                                    "l": "Rückzahlungen von PRV-Leistungen",
+                                    "code": "11908",
+                                    "v": 20000
+                                },
+                                {
+                                    "l": "Kostenanteile für Dienstfahrkarten",
+                                    "code": "11907",
+                                    "v": 14000
+                                },
+                                {
+                                    "l": "Rückzahlungen von Ausbildungskosten",
+                                    "code": "11925",
+                                    "v": 12200
+                                },
+                                {
+                                    "l": "Verschiedene Einnahmen ohne nachweisbare Zweckbestimmung bei 1523",
+                                    "code": "11980",
+                                    "v": 8000
+                                },
+                                {
+                                    "l": "Einnahmen aus Gutachten",
+                                    "code": "11975",
+                                    "v": 5000
+                                },
+                                {
+                                    "l": "Rückzahlungen überzahlter Leistungen nach dem Heizkostenzuschussgesetz Bund",
+                                    "code": "11941",
+                                    "v": 4000
+                                },
+                                {
+                                    "l": "Rückzahlung überzahlter Versorgungsleistungen",
+                                    "code": "11955",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Rückzahlungen der Vivantes Netzwerk für Gesundheit GmbH",
+                                    "code": "11932",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Abführung von Zinsen der Vivantes Netzwerk für Gesundheit GmbH",
+                                    "code": "11948",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Abführung von Zinsen von Krankenhäusern nichtöffentlicher Träger",
+                                    "code": "11949",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Rückzahlungen von Garantieleistungen",
+                                    "code": "11922",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Rückführungen von Sanierungsförderungsmitteln sowie Abführungen von Finanzierungsabgaben",
+                                    "code": "11927",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Ersatz von Planungs- und Bauleistungen",
+                                    "code": "11953",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Geldstrafen, Geldbußen und Zwangsgelder (einschließlich der damit zusammenhängenden Gerichts- und Verwaltungskosten)",
+                            "v": 236266100,
+                            "c": [
+                                {
+                                    "l": "Geldstrafen, Geldbußen, Verwarnungs- und Zwangsgelder",
+                                    "code": "11201",
+                                    "v": 200842100
+                                },
+                                {
+                                    "l": "Geldbußen und Verwarngelder aus der Verkehrsüberwachung (außerhalb der Parkraumbewirtschaftung)",
+                                    "code": "11203",
+                                    "v": 35424000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Einnahmen aus wirtschaftlicher Tätigkeit und aus Vermögen (ohne Zinsen)",
+                    "v": 1293316700,
+                    "c": [
+                        {
+                            "l": "Einnahmen aus Gewinnen von Unternehmen und Beteiligungen",
+                            "v": 889291000,
+                            "c": [
+                                {
+                                    "l": "Rückfluss aus dem Sondervermögen Immobilien des Landes Berlin (SILB)",
+                                    "code": "12121",
+                                    "v": 368530000
+                                },
+                                {
+                                    "l": "Gewinnablieferungen der Anstalten des öffentlichen Rechts",
+                                    "code": "12126",
+                                    "v": 297800000
+                                },
+                                {
+                                    "l": "Erträge aus Beteiligungen an öffentlichen Unternehmen",
+                                    "code": "12111",
+                                    "v": 107070000
+                                },
+                                {
+                                    "l": "Gewinnablieferungen aus der Parkraumbewirtschaftung",
+                                    "code": "12109",
+                                    "v": 74379000
+                                },
+                                {
+                                    "l": "Rückfluss aus dem Sondervermögen für Daseinsvorsorgegrundstücke (SODA)",
+                                    "code": "12125",
+                                    "v": 39102000
+                                },
+                                {
+                                    "l": "Gewinnablieferungen von Betrieben nach § 26 LHO",
+                                    "code": "12120",
+                                    "v": 1710000
+                                },
+                                {
+                                    "l": "Überschüsse der Staatlichen Münze Berlin",
+                                    "code": "12124",
+                                    "v": 700000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Konzessionsabgaben",
+                            "v": 277319000,
+                            "c": [
+                                {
+                                    "l": "Konzessionsabgabe Strom",
+                                    "code": "12202",
+                                    "v": 261000000
+                                },
+                                {
+                                    "l": "Konzessionsabgabe Gas",
+                                    "code": "12206",
+                                    "v": 13520000
+                                },
+                                {
+                                    "l": "Entgelte für Sondernutzung des Straßenlands",
+                                    "code": "12201",
+                                    "v": 1200000
+                                },
+                                {
+                                    "l": "Einnahmen aus zweckgebundenen Nebenentgelten des Dualen Systems",
+                                    "code": "12290",
+                                    "v": 536400
+                                },
+                                {
+                                    "l": "Entgelte für Sondernutzung öffentlicher Gewässer",
+                                    "code": "12204",
+                                    "v": 486000
+                                },
+                                {
+                                    "l": "Entgelte aus Fischereirechten",
+                                    "code": "12203",
+                                    "v": 480000
+                                },
+                                {
+                                    "l": "Nutzungsentgelte für die Überlassung des Zentralen Omnibusbahnhofs (ZOB)",
+                                    "code": "12207",
+                                    "v": 96600
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Mieten und Pachten",
+                            "v": 114911300,
+                            "c": [
+                                {
+                                    "l": "Mieten für Grundstücke, Gebäude und Räume",
+                                    "code": "12401",
+                                    "v": 96505200
+                                },
+                                {
+                                    "l": "Erbbauzinsen",
+                                    "code": "12404",
+                                    "v": 14309100
+                                },
+                                {
+                                    "l": "Pachtzahlungen der Messe Berlin",
+                                    "code": "12410",
+                                    "v": 2380000
+                                },
+                                {
+                                    "l": "Mieten für Stellplätze auf Dienstgrundstücken",
+                                    "code": "12406",
+                                    "v": 1458000
+                                },
+                                {
+                                    "l": "Nutzungsentschädigung",
+                                    "code": "12405",
+                                    "v": 225000
+                                },
+                                {
+                                    "l": "Einnahmen aus Erbbauzinsen für Grundstücke mit Schulgebäuden der HOWOGE Wohnungsbaugesellschaft mbH",
+                                    "code": "12446",
+                                    "v": 30000
+                                },
+                                {
+                                    "l": "Pachtzahlungen Buchholz Nord",
+                                    "code": "12411",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Mieten für Maschinen, Geräte und Ausstattungsgegenstände",
+                                    "code": "12403",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Einnahmen aus der Veräußerung von beweglichen Sachen und Diensten aus wirtschaftlicher Tätigkeit",
+                            "v": 11795400,
+                            "c": [
+                                {
+                                    "l": "Verkaufserlöse",
+                                    "code": "12511",
+                                    "v": 7390400
+                                },
+                                {
+                                    "l": "Entgelte aus der Beschäftigung von Gefangenen",
+                                    "code": "12505",
+                                    "v": 2091000
+                                },
+                                {
+                                    "l": "Erlöse für Dienstleistungen",
+                                    "code": "12504",
+                                    "v": 1976000
+                                },
+                                {
+                                    "l": "Entgelte für Wärmelieferungen",
+                                    "code": "12520",
+                                    "v": 100000
+                                },
+                                {
+                                    "l": "Abgabe von Gartenbauerzeugnissen an Dienststellen Berlins",
+                                    "code": "12515",
+                                    "v": 100000
+                                },
+                                {
+                                    "l": "Einnahmen aus eigenem Handeln der Schule",
+                                    "code": "12516",
+                                    "v": 98000
+                                },
+                                {
+                                    "l": "Beteiligung des Personals an Kosten für Beköstigung, Unterkunft und andere Leistungen",
+                                    "code": "12531",
+                                    "v": 40000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Darlehensrückflüsse aus sonstigen Bereichen",
+                    "v": 229664000,
+                    "c": [
+                        {
+                            "l": "Darlehensrückflüsse von öffentlichen Unternehmen und Einrichtungen",
+                            "v": 186946000,
+                            "c": [
+                                {
+                                    "l": "Rückflüsse von Wohnungsbauförderdarlehen",
+                                    "code": "18141",
+                                    "v": 185000000
+                                },
+                                {
+                                    "l": "Rückflüsse aus dem Wohnungsbaufonds (Preußische Hauszinssteuer)",
+                                    "code": "18142",
+                                    "v": 1800000
+                                },
+                                {
+                                    "l": "Rückflüsse aus Eigenkapitalersatzdarlehen für Mieterhaushalte umgewandelter Wohnungen",
+                                    "code": "18143",
+                                    "v": 144000
+                                },
+                                {
+                                    "l": "Rückflüsse von Gesellschafterdarlehen an die Flughafen Berlin Brandenburg GmbH",
+                                    "code": "18105",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Sonstige Darlehensrückflüsse aus dem Inland",
+                            "v": 42718000,
+                            "c": [
+                                {
+                                    "l": "Anteil an den Rückflüssen von Darlehen nach dem Bundesausbildungsförderungsgesetz",
+                                    "code": "18213",
+                                    "v": 30002000
+                                },
+                                {
+                                    "l": "Rückflüsse von Darlehen nach dem SGB XII und AsylbLG",
+                                    "code": "18212",
+                                    "v": 7327800
+                                },
+                                {
+                                    "l": "Tilgungen",
+                                    "code": "18210",
+                                    "v": 3284200
+                                },
+                                {
+                                    "l": "Rückflüsse von Baudarlehen des städtebaulichen Denkmalschutzes",
+                                    "code": "18291",
+                                    "v": 1460000
+                                },
+                                {
+                                    "l": "Tilgungen aus der Verwendung der Ausgleichsabgabe nach dem Sozialgesetzbuch-Neuntes Buch-",
+                                    "code": "18298",
+                                    "v": 580000
+                                },
+                                {
+                                    "l": "Rückflüsse von Darlehen nach dem SGB IX",
+                                    "code": "18215",
+                                    "v": 52000
+                                },
+                                {
+                                    "l": "Rückflüsse von Darlehen an private Unternehmen der Wohnungswirtschaft",
+                                    "code": "18241",
+                                    "v": 10000
+                                },
+                                {
+                                    "l": "Rückflüsse von Darlehen",
+                                    "code": "18203",
+                                    "v": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Zinseinnahmen aus sonstigen Bereichen",
+                    "v": 43121200,
+                    "c": [
+                        {
+                            "l": "Sonstige Zinseinnahmen aus dem Inland",
+                            "v": 27437200,
+                            "c": [
+                                {
+                                    "l": "Zinsen",
+                                    "code": "16210",
+                                    "v": 27163000
+                                },
+                                {
+                                    "l": "Erträge aus Darlehen nach dem SGB XII und AsylbLG",
+                                    "code": "16212",
+                                    "v": 136200
+                                },
+                                {
+                                    "l": "Andere Erträge des Kapitalvermögens",
+                                    "code": "16204",
+                                    "v": 130000
+                                },
+                                {
+                                    "l": "Zinsen aus Zuschüssen für Investitionen des öffentlichen Personennahverkehrs",
+                                    "code": "16290",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Erträge aus der Anlage von Geldbeständen der Rücklage für Tierseuchenentschädigungen",
+                                    "code": "16291",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Erträge der Ausgleichsabgabe nach dem Sozialgesetzbuch -Neuntes Buch-",
+                                    "code": "16298",
+                                    "v": 2000
+                                },
+                                {
+                                    "l": "Erträge des Geldbestands",
+                                    "code": "16201",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Zinseinnahmen von öffentlichen Unternehmen und Einrichtungen",
+                            "v": 15684000,
+                            "c": [
+                                {
+                                    "l": "Erträge aus Wohnungsbauförderdarlehen",
+                                    "code": "16141",
+                                    "v": 15684000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Einnahmen aus der Veräußerung von Gegenständen und Beteiligungen, aus Kapitalrückzahlungen und dgl.",
+                    "v": 40708200,
+                    "c": [
+                        {
+                            "l": "Einnahmen aus der Veräußerung von unbeweglichen Sachen, soweit nicht Gruppe 135",
+                            "v": 27727000,
+                            "c": [
+                                {
+                                    "l": "Abführungen aus dem Liegenschaftsfonds",
+                                    "code": "13101",
+                                    "v": 24000000
+                                },
+                                {
+                                    "l": "Erlösbeteiligung der Bezirke aus der Veräußerung von bebauten Grundstücken",
+                                    "code": "13110",
+                                    "v": 2699000
+                                },
+                                {
+                                    "l": "Verkauf von bebauten Grundstücken des Finanzvermögens",
+                                    "code": "13102",
+                                    "v": 1000000
+                                },
+                                {
+                                    "l": "Erlösbeteiligungen aus Verkäufen bebauter Grundstücke des Verwaltungsvermögens",
+                                    "code": "13108",
+                                    "v": 10000
+                                },
+                                {
+                                    "l": "Wertersatz für Nutzungsrechte an bebauten Grundstücken des Verwaltungsvermögens",
+                                    "code": "13112",
+                                    "v": 8000
+                                },
+                                {
+                                    "l": "Verkauf von bebauten Grundstücken des Verwaltungs- und des Stiftungsvermögens",
+                                    "code": "13106",
+                                    "v": 4000
+                                },
+                                {
+                                    "l": "Abgeltung von Ansprüchen",
+                                    "code": "13111",
+                                    "v": 4000
+                                },
+                                {
+                                    "l": "Verkauf von hochschulgenutzten bebauten Grundstücken",
+                                    "code": "13107",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Einnahmen aus der Veräußerung von Beteiligungen und sonstigem Kapitalvermögen",
+                            "v": 8276000,
+                            "c": [
+                                {
+                                    "l": "Verkauf von Wertpapieren für zweckgebundene Ausgaben",
+                                    "code": "13390",
+                                    "v": 8276000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Einnahmen aus der Veräußerung von unbebauten Grundstücken",
+                            "v": 2699000,
+                            "c": [
+                                {
+                                    "l": "Erlösbeteiligung der Bezirke aus der Veräußerung von unbebauten Grundstücken",
+                                    "code": "13510",
+                                    "v": 2699000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Einnahmen aus der Veräußerung von beweglichen Sachen",
+                            "v": 1486200,
+                            "c": [
+                                {
+                                    "l": "Verkauf von beweglichem Vermögen",
+                                    "code": "13203",
+                                    "v": 1484200
+                                },
+                                {
+                                    "l": "Verkauf von ausgesonderten Investitionsgütern aus der Ausgleichsabgabe nach dem Sozialgesetzbuch-Neuntes Buch-",
+                                    "code": "13298",
+                                    "v": 2000
+                                }
+                            ]
+                        },
+                        {
+                            "l": "Kapitalrückzahlungen",
+                            "v": 520000,
+                            "c": [
+                                {
+                                    "l": "Einnahmen im Zusammenhang mit dem Liquiditätsfonds",
+                                    "code": "13403",
+                                    "v": 500000
+                                },
+                                {
+                                    "l": "Einnahmen aus der Auflösung des Fonds zur Förderung kleiner und mittlerer Unternehmen",
+                                    "code": "13402",
+                                    "v": 20000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "l": "Einnahmen aus der Inanspruchnahme von Gewährleistungen",
+                    "v": 29208000,
+                    "c": [
+                        {
+                            "l": "Einnahmen aus der Inanspruchnahme von Gewährleistungen aus dem Inland",
+                            "v": 29208000,
+                            "c": [
+                                {
+                                    "l": "Bürgschaftsentgelte",
+                                    "code": "14101",
+                                    "v": 25000000
+                                },
+                                {
+                                    "l": "Rückzahlungen nach Bürgschaftsinanspruchnahmen",
+                                    "code": "14102",
+                                    "v": 4202000
+                                },
+                                {
+                                    "l": "Rückflüsse wegen Rückbürgschaften und Rückgarantien",
+                                    "code": "14103",
+                                    "v": 6000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
