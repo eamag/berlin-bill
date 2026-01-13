@@ -26,5 +26,7 @@
     "source_label": "Source",
     "source_link_text": "Open Data Berlin",
     "share_message_generic": "I contributed {amount} to the Berlin budget in 2025! Calculate yours:",
-    "share_message_trivia": "I paid {amount} for {subject} in Berlin in 2025! Calculate yours:"
+    "share_message_trivia": "I paid {amount} for {subject} in Berlin in 2025! Calculate yours:",
+    "seo_title": "Berlin Budget Receipt - Where does your money go?",
+    "seo_description": "Calculate your personal contribution to schools, police, and infrastructure. See the Berlin budget as a personal receipt."
 }

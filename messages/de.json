@@ -26,5 +26,7 @@
     "source_label": "Quelle",
     "source_link_text": "Open Data Berlin",
     "share_message_generic": "Ich habe 2025 {amount} zum Berliner Haushalt beigetragen! Berechne deinen Anteil:",
-    "share_message_trivia": "Ich habe 2025 in Berlin {amount} für {subject} bezahlt! Berechne deinen Anteil:"
+    "share_message_trivia": "Ich habe 2025 in Berlin {amount} für {subject} bezahlt! Berechne deinen Anteil:",
+    "seo_title": "Berliner Haushalt Quittung - Wo geht dein Geld hin?",
+    "seo_description": "Berechne deinen persönlichen Beitrag zu Schulen, Polizei und Infrastruktur. Sieh den Berliner Haushalt als persönliche Quittung."
 }
