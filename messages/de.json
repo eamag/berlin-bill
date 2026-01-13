@@ -10,6 +10,7 @@
     "receipt_disclaimer": "Dies ist eine Schätzung basierend auf dem Jahresdurchschnitt des Doppelhaushalts 2024-2025.",
     "receipt_tax_estimated": "Deine geschätzte Einkommensteuer (Tarif 2025, Steuerklasse 1)",
     "receipt_tax_note": "Inkl. ca. Sozialversicherung und Pauschalen",
+    "receipt_tax_split_note": "Hinweis: Nur 57,5 % deiner Einkommensteuer verbleiben in Berlin (Stadtstaaten-Anteil); 42,5 % gehen an den Bund.",
     "mode_personal": "Persönlicher Anteil",
     "mode_total": "Gesamthaushalt",
     "share_button": "Quittung teilen",

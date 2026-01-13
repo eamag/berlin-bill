@@ -228,7 +228,7 @@
 		}
 	}
 
-	let userTaxContribution = $derived(calculateGermanTax(annualIncome));
+	let userTaxContribution = $derived(Math.floor(calculateGermanTax(annualIncome) * 0.575));
 
 	// Toggle for showing raw budget vs personal receipt
 	let displayMode = $state('personal'); // 'personal' or 'total'
@@ -274,9 +274,14 @@
 		</div>
 
 		{#if userTaxContribution > 0}
-			<div class="text-sm font-medium text-stone-500" transition:fade>
-				{m.receipt_tax_estimated()}:
-				<span class="font-bold text-stone-900">{formatMoney(userTaxContribution)}</span>
+			<div class="space-y-1" transition:fade>
+				<div class="text-sm font-medium text-stone-500">
+					{m.receipt_tax_estimated()}:
+					<span class="font-bold text-stone-900">{formatMoney(userTaxContribution)}</span>
+				</div>
+				<p class="mx-auto max-w-sm text-[10px] leading-tight text-stone-400">
+					{m.receipt_tax_split_note()}
+				</p>
 			</div>
 		{/if}
 	</div>

@@ -10,6 +10,7 @@
     "receipt_disclaimer": "This is an estimate based on the single-year average of the 2024-2025 double budget.",
     "receipt_tax_estimated": "Your estimated income tax (2025 tariff, Class 1)",
     "receipt_tax_note": "Includes approx. social security and deductions",
+    "receipt_tax_split_note": "Note: Only 57.5% of your income tax stays in Berlin (City-State share); 42.5% goes to the Federal budget.",
     "mode_personal": "Personal Share",
     "mode_total": "Total Budget",
     "share_button": "Share My Receipt",
