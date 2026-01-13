@@ -24,5 +24,7 @@
     "generic_label": "ALLGEMEIN",
     "personalized_label": "PERSONALISIERT",
     "source_label": "Quelle",
-    "source_link_text": "Open Data Berlin"
+    "source_link_text": "Open Data Berlin",
+    "share_message_generic": "Ich habe 2025 {amount} zum Berliner Haushalt beigetragen! Berechne deinen Anteil:",
+    "share_message_trivia": "Ich habe 2025 in Berlin {amount} für {subject} bezahlt! Berechne deinen Anteil:"
 }

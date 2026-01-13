@@ -24,5 +24,7 @@
     "generic_label": "GENERIC",
     "personalized_label": "PERSONALIZED",
     "source_label": "Source",
-    "source_link_text": "Open Data Berlin"
+    "source_link_text": "Open Data Berlin",
+    "share_message_generic": "I contributed {amount} to the Berlin budget in 2025! Calculate yours:",
+    "share_message_trivia": "I paid {amount} for {subject} in Berlin in 2025! Calculate yours:"
 }

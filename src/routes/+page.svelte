@@ -189,13 +189,28 @@
 	}
 
 	async function shareReceipt() {
-		const text = `I contributed ${formatMoney(userTaxContribution)} to the Berlin budget in 2025! calculate yours:`;
+		let text = '';
+		const amount = formatMoney(userTaxContribution);
 		const url = window.location.href;
+
+		if (currentTrivia) {
+			const subject =
+				getLocale() === 'en' && translationMap[currentTrivia.config.name]
+					? translationMap[currentTrivia.config.name]
+					: currentTrivia.config.name;
+
+			text = m.share_message_trivia({
+				amount: formatMoney(currentTrivia.amount),
+				subject: subject.toLowerCase()
+			});
+		} else {
+			text = m.share_message_generic({ amount });
+		}
 
 		if (navigator.share) {
 			try {
 				await navigator.share({
-					title: 'Berlin Budget Receipt',
+					title: m.receipt_title(),
 					text: text,
 					url: url
 				});
@@ -206,7 +221,7 @@
 			// Fallback: Copy to clipboard
 			try {
 				await navigator.clipboard.writeText(`${text} ${url}`);
-				alert('Link copied to clipboard!');
+				alert(m.share_link_copied());
 			} catch (err) {
 				console.error('Clipboard failed', err);
 			}
@@ -454,4 +469,29 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Extra Footer -->
+	<footer class="mt-12 flex flex-col items-center gap-4 pb-12 text-stone-500">
+		<div class="flex items-center gap-2">
+			<span
+				class="rounded bg-stone-300 px-2 py-0.5 text-xs font-bold tracking-widest text-stone-600 uppercase"
+				>Support</span
+			>
+			<iframe
+				src="https://github.com/sponsors/eamag/button"
+				title="Sponsor eamag"
+				height="32"
+				width="114"
+				style="border: 0; border-radius: 6px;"
+			></iframe>
+		</div>
+		<p class="text-[12px] tracking-tighter uppercase opacity-70">
+			Made in Berlin with &lt;3 by <a
+				href="https://eamag.me/"
+				class="underline hover:text-stone-600"
+			>
+				Dmitrii
+			</a>
+		</p>
+	</footer>
 </div>
