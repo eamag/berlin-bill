@@ -11,7 +11,9 @@
 		total,
 		budgetTotal,
 		userTaxTotal,
-		initiallyOpen
+		initiallyOpen,
+		translationMap = {},
+		locale = 'de'
 	} = $props<{
 		item: BudgetItem;
 		level?: number;
@@ -20,6 +22,8 @@
 		budgetTotal?: number; // Global budget total for tax share calculation
 		userTaxTotal?: number; // User's estimated tax contribution
 		initiallyOpen?: boolean; // Whether the item should start expanded
+		translationMap?: Record<string, string>;
+		locale?: string;
 	}>();
 
 	let isOpen = $state(untrack(() => initiallyOpen) || false);
@@ -31,11 +35,15 @@
 	}
 
 	function formatMoney(amount: number) {
-		return new Intl.NumberFormat('de-DE', { style: 'currency', currency: currency }).format(amount);
+		const formatLocale = locale === 'de' ? 'de-DE' : 'en-US';
+		return new Intl.NumberFormat(formatLocale, { style: 'currency', currency: currency }).format(
+			amount
+		);
 	}
 
 	function formatLargeMoney(amount: number) {
-		return new Intl.NumberFormat('de-DE', {
+		const formatLocale = locale === 'de' ? 'de-DE' : 'en-US';
+		return new Intl.NumberFormat(formatLocale, {
 			style: 'currency',
 			currency: currency,
 			maximumFractionDigits: 0
@@ -85,7 +93,7 @@
 				<span
 					class="text-sm font-medium tracking-wide text-stone-800 uppercase group-hover:text-black"
 				>
-					{item.l}
+					{locale === 'en' && translationMap[item.l] ? translationMap[item.l] : item.l}
 				</span>
 				{#if item.code}
 					<span class="font-mono text-[10px] text-stone-400">{item.code}</span>
@@ -119,6 +127,8 @@
 					total={item.v}
 					{budgetTotal}
 					{userTaxTotal}
+					{translationMap}
+					{locale}
 				/>
 			{/each}
 		</div>

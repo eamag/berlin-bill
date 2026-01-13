@@ -4,8 +4,11 @@
 	import { fade, slide } from 'svelte/transition';
 	import type { BudgetData, BudgetItem } from '$lib/types';
 	import { triviaItems, type TriviaConfig } from '$lib/trivia';
+	import * as m from '$paraglide/messages';
+	import { getLocale, setLocale } from '$paraglide/runtime';
 
 	let budgetData: BudgetData | null = $state(null);
+	let translationMap: Record<string, string> = $state({});
 	let loading = $state(true);
 
 	// User Input State
@@ -89,6 +92,10 @@
 
 			budgetData = data;
 
+			// Load translations
+			const transRes = await fetch('/translations_en.json');
+			translationMap = await transRes.json();
+
 			// Generate initial trivia deferred
 			setTimeout(() => {
 				generateTrivia();
@@ -99,6 +106,11 @@
 			loading = false;
 		}
 	});
+
+	function toggleLanguage() {
+		const next = getLocale() === 'de' ? 'en' : 'de';
+		setLocale(next);
+	}
 
 	// Regenerate trivia when tax changes, but debounce/defer it
 	$effect(() => {
@@ -130,11 +142,13 @@
 	});
 
 	function formatMoney(amount: number) {
-		return new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(amount);
+		const locale = getLocale() === 'de' ? 'de-DE' : 'en-US';
+		return new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR' }).format(amount);
 	}
 
 	function formatLargeMoney(amount: number) {
-		return new Intl.NumberFormat('de-DE', {
+		const locale = getLocale() === 'de' ? 'de-DE' : 'en-US';
+		return new Intl.NumberFormat(locale, {
 			style: 'currency',
 			currency: 'EUR',
 			maximumFractionDigits: 0
@@ -210,9 +224,18 @@
 >
 	<!-- Header / Input Section -->
 	<div class="mb-8 w-full max-w-2xl space-y-6 text-center">
-		<h1 class="text-4xl font-extrabold tracking-tight text-stone-900">Where did your money go?</h1>
+		<div class="flex justify-end">
+			<button
+				onclick={toggleLanguage}
+				class="rounded-full bg-stone-300 px-3 py-1 text-xs font-bold text-stone-600 uppercase transition-colors hover:bg-stone-400"
+			>
+				{getLocale() === 'de' ? 'Switch to English' : 'Auf Deutsch wechseln'}
+			</button>
+		</div>
+
+		<h1 class="text-4xl font-extrabold tracking-tight text-stone-900">{m.header_title()}</h1>
 		<p class="mx-auto max-w-lg text-stone-600">
-			Enter your annual gross income to generate your personal Berlin government spending receipt.
+			{m.header_subtitle()}
 		</p>
 
 		<div
@@ -223,7 +246,7 @@
 				type="number"
 				bind:value={annualIncome}
 				class="w-full flex-1 text-2xl font-bold text-stone-800 outline-none placeholder:text-stone-300"
-				placeholder="50000"
+				placeholder={m.placeholder_income()}
 			/>
 			<button
 				class="ml-2 rounded-lg bg-blue-600 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-700"
@@ -231,13 +254,13 @@
 					/* No-op, reactive */
 				}}
 			>
-				Calculate
+				{m.button_calculate()}
 			</button>
 		</div>
 
 		{#if userTaxContribution > 0}
 			<div class="text-sm font-medium text-stone-500" transition:fade>
-				Estimated Income Tax:
+				{m.receipt_tax_estimated()}:
 				<span class="font-bold text-stone-900">{formatMoney(userTaxContribution)}</span>
 			</div>
 		{/if}
@@ -271,23 +294,27 @@
 				</div>
 			</div>
 			<h1 class="mb-1 text-3xl font-bold tracking-wider text-stone-900 uppercase">
-				Official Receipt
+				{m.receipt_title()}
 			</h1>
 			<p class="font-mono text-xs tracking-widest text-stone-500 uppercase">
 				Berlin Treasury Dept.
 			</p>
 
 			<div class="mt-6 flex justify-between font-mono text-xs text-stone-500">
-				<span>DATE: {new Date().toLocaleDateString('de-DE')}</span>
-				<span>TERM: 2025*</span>
+				<span
+					>{m.date_label()}: {new Date().toLocaleDateString(
+						getLocale() === 'de' ? 'de-DE' : 'en-US'
+					)}</span
+				>
+				<span>{m.term_label()}: 2025*</span>
 			</div>
 			<div class="flex justify-between font-mono text-xs text-stone-500">
 				<span>TRANS ID: #BER-8829-XJ</span>
 				<span>
 					{#if userTaxContribution > 0}
-						PERSONALIZED
+						{m.personalized_label()}
 					{:else}
-						GENERIC
+						{m.generic_label()}
 					{/if}
 				</span>
 			</div>
@@ -303,8 +330,10 @@
 					<div class="pt-1 text-3xl select-none">{currentTrivia.config.icon}</div>
 					<div class="flex-1">
 						<p class="mb-1 font-mono text-sm text-stone-600">
-							<strong class="text-stone-900">{formatMoney(currentTrivia.amount)}</strong> went to {currentTrivia
-								.config.name}.
+							<strong class="text-stone-900">{formatMoney(currentTrivia.amount)}</strong> went to {getLocale() ===
+								'en' && translationMap[currentTrivia.config.name]
+								? translationMap[currentTrivia.config.name]
+								: currentTrivia.config.name}.
 						</p>
 						<!-- <p class="text-sm font-bold text-stone-800 italic">
 							{currentTrivia.config.question}
@@ -313,7 +342,7 @@
 					<button
 						onclick={generateTrivia}
 						class="rounded-full p-2 text-stone-400 transition-colors hover:bg-stone-200 hover:text-stone-800"
-						title="Show another example"
+						title={m.trivia_refresh()}
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -349,6 +378,8 @@
 						budgetTotal={budgetData.meta.total_budget}
 						userTaxTotal={userTaxContribution}
 						initiallyOpen={i === 0}
+						{translationMap}
+						locale={getLocale()}
 					/>
 				{/each}
 			{:else}
@@ -362,14 +393,14 @@
 				<div class="flex flex-col">
 					<span class="text-sm font-medium text-stone-500 uppercase">
 						{#if userTaxContribution > 0}
-							Your Contribution
+							{m.mode_personal()}
 						{:else}
-							Total Budget
+							{m.mode_total()}
 						{/if}
 					</span>
 					{#if userTaxContribution > 0 && budgetData}
 						<span class="mt-1 font-mono text-[10px] text-stone-400 uppercase">
-							/ Total: {formatLargeMoney(budgetData.meta.total_budget)}
+							/ {m.footer_sum_total()}: {formatLargeMoney(budgetData.meta.total_budget)}
 						</span>
 					{/if}
 				</div>
@@ -388,15 +419,14 @@
 
 			<div class="mt-4 border-t border-stone-200 pt-3 text-[10px] text-stone-400">
 				<p class="mb-1 leading-tight">
-					* Values are based on the 2024-2025 Berlin double budget, roughly halved to represent a
-					single year.
+					* {m.receipt_disclaimer()}
 				</p>
 				<a
 					href="https://daten.berlin.de/datensaetze/doppelhaushalt-2024-2025-4-nachtrag-1614398"
 					target="_blank"
 					class="underline hover:text-stone-600"
 				>
-					Source: Open Data Berlin
+					{m.source_label()}: {m.source_link_text()}
 				</a>
 			</div>
 
@@ -419,7 +449,7 @@
 							d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z"
 						/>
 					</svg>
-					Share Receipt
+					{m.share_button()}
 				</button>
 			</div>
 		</div>
