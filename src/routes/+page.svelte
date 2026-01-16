@@ -498,5 +498,10 @@
 				Dmitrii
 			</a>
 		</p>
+		<p class="text-xs">
+			<a href="/transport-accessibility" class="underline hover:text-stone-600">
+				Public Transport Accessibility Map
+			</a>
+		</p>
 	</footer>
 </div>
