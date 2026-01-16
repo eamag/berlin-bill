@@ -1,0 +1,6 @@
+stop_id,stop_name,stop_lat,stop_lon,stop_code,stop_desc,zone_id,location_type,parent_station,platform_code
+de:11000:900023201,S+U Berlin Hauptbahnhof,52.525592,13.369545,,,,,,
+de:11000:900024201,S+U Brandenburger Tor,52.516952,13.380225,,,,,,
+de:11000:900024101,S+U Friedrichstr.,52.520592,13.387145,,,,,,
+de:11000:900003201,S+U Alexanderplatz,52.521592,13.411145,,,,,,
+de:11000:900058101,S+U Zoologischer Garten,52.507592,13.332145,,,,,,

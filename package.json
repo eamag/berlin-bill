@@ -2,6 +2,7 @@
 	"name": "berlin-bill",
 	"version": "0.0.1",
 	"devDependencies": {
+		"@playwright/test": "^1.42.1",
 		"@eslint/compat": "^1.4.0",
 		"@eslint/js": "^9.39.1",
 		"@inlang/cli": "^3.0.0",
@@ -45,7 +46,8 @@
 		"lint": "prettier --check . && eslint .",
 		"deploy": "bun run build && wrangler pages deploy",
 		"cf-typegen": "wrangler types src/worker-configuration.d.ts",
-		"postinstall": "paraglide-js compile --project ./project.inlang"
+		"postinstall": "paraglide-js compile --project ./project.inlang",
+		"test": "playwright test"
 	},
 	"type": "module",
 	"dependencies": {

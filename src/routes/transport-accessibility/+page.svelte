@@ -9,23 +9,11 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import L from 'leaflet';
-  import Papa from 'papaparse';
-  import type { ParseResult } from 'papaparse';
+  import type { PageData } from './$types';
 
-  interface Stop {
-    stop_id: string;
-    stop_name: string;
-    stop_lat: string;
-    stop_lon: string;
-    stop_code: string;
-    stop_desc: string;
-    zone_id: string;
-    location_type: string;
-    parent_station: string;
-    platform_code: string;
-  }
+  export let data: PageData;
 
-  onMount(async () => {
+  onMount(() => {
     const map = L.map('map').setView([52.52, 13.405], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -33,24 +21,12 @@
       attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    try {
-      const response = await fetch('https://vbb-gtfs.jannisr.de/latest/stops.txt');
-      const csvText = await response.text();
-
-      Papa.parse<Stop>(csvText, {
-        header: true,
-        complete: (results: ParseResult<Stop>) => {
-          console.log('Parsed GTFS data:', results.data);
-          results.data.forEach((stop: Stop) => {
-            if (stop.stop_lat && stop.stop_lon) {
-              L.marker([parseFloat(stop.stop_lat), parseFloat(stop.stop_lon)]).addTo(map);
-            }
-          });
+    if (data.stops) {
+      data.stops.forEach(stop => {
+        if (stop.stop_lat && stop.stop_lon) {
+          L.marker([parseFloat(stop.stop_lat), parseFloat(stop.stop_lon)]).addTo(map);
         }
       });
-
-    } catch (error) {
-      console.error('Error fetching or parsing GTFS data:', error);
     }
   });
 </script>
