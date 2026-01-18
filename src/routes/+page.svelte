@@ -497,6 +497,7 @@
 			>
 				Dmitrii
 			</a>
+			| <a href="/organigram" class="underline hover:text-stone-600">Organigram</a>
 		</p>
 	</footer>
 </div>
