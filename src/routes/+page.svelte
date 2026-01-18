@@ -477,6 +477,7 @@
 
 	<!-- Extra Footer -->
 	<footer class="mt-12 flex flex-col items-center gap-4 pb-12 text-stone-500">
+		<a href="/revenue" class="text-stone-500 underline hover:text-stone-800">Tax Revenue Visualization</a>
 		<div class="flex items-center gap-2">
 			<span
 				class="rounded bg-stone-300 px-2 py-0.5 text-xs font-bold tracking-widest text-stone-600 uppercase"
