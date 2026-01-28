@@ -109,6 +109,29 @@
 	const trunc = (s: string, n = 25) => (s.length > n ? s.slice(0, n) + '...' : s);
 </script>
 
+<svelte:head>
+	<title>{m.game_seo_title()}</title>
+	<meta name="description" content={m.game_seo_description()} />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://berlin-bill.eamag.me/{getLocale()}/higher-or-lower" />
+	<meta property="og:title" content={m.game_seo_title()} />
+	<meta property="og:description" content={m.game_seo_description()} />
+	<meta property="og:image" content="https://berlin-bill.eamag.me/og-image.png" />
+	<meta property="og:site_name" content="Berlin Budget Receipt" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta
+		property="twitter:url"
+		content="https://berlin-bill.eamag.me/{getLocale()}/higher-or-lower"
+	/>
+	<meta property="twitter:title" content={m.game_seo_title()} />
+	<meta property="twitter:description" content={m.game_seo_description()} />
+	<meta property="twitter:image" content="https://berlin-bill.eamag.me/og-image.png" />
+</svelte:head>
+
 {#if gameState === 'loading'}
 	<div class="flex h-screen items-center justify-center bg-stone-200">
 		<div class="text-center">
