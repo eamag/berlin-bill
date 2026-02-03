@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ReceiptItem from '$lib/components/ReceiptItem.svelte';
 	import { onMount } from 'svelte';
+	import { resolve } from '$app/paths';
+	import { SvelteSet } from 'svelte/reactivity';
 	import { fade, slide } from 'svelte/transition';
 	import type { BudgetData, BudgetItem } from '$lib/types';
 	import { triviaItems, type TriviaConfig } from '$lib/trivia';
@@ -11,15 +13,12 @@
 	let translationMap: Record<string, string> = $state({});
 	let loading = $state(true);
 
-	// User Input State
 	let annualIncome = $state(50000);
-
-	// Trivia State
 	let currentTrivia = $state<{ config: TriviaConfig; amount: number } | null>(null);
-	let seenTriviaIndices = new Set<number>();
+	let seenTriviaIndices = new SvelteSet<number>();
+	type HalvableItem = { v: number; c?: HalvableItem[] };
 
-	// Recursively divide all values by 2
-	function halveValues(item: any) {
+	function halveValues(item: HalvableItem) {
 		item.v = item.v / 2;
 		if (item.c) {
 			item.c.forEach(halveValues);
@@ -45,18 +44,13 @@
 
 		let attempts = 0;
 		let found = false;
-
-		// Create a list of available indices
 		let availableIndices = triviaItems.map((_, i) => i).filter((i) => !seenTriviaIndices.has(i));
-
-		// If we've seen everything, reset
 		if (availableIndices.length === 0) {
 			seenTriviaIndices.clear();
 			availableIndices = triviaItems.map((_, i) => i);
 		}
 
 		while (attempts < 5 && !found && availableIndices.length > 0) {
-			// Pick random index from available
 			const randomIndexIndex = Math.floor(Math.random() * availableIndices.length);
 			const targetIndex = availableIndices[randomIndexIndex];
 			const randomConfig = triviaItems[targetIndex];
@@ -72,7 +66,6 @@
 				found = true;
 				seenTriviaIndices.add(targetIndex);
 			} else {
-				// If not found in budget, remove from available so we don't pick it again immediately
 				console.warn(`No budget data found for trivia: ${randomConfig.search}`);
 				availableIndices.splice(randomIndexIndex, 1);
 				attempts++;
@@ -87,16 +80,12 @@
 			// JSON is for 2024+2025, so we divide by 2 for a single year average
 			// halveValues(data.meta); // Meta structure is different
 			data.data.forEach(halveValues);
-			// Also fix the root total
 			data.meta.total_budget = data.meta.total_budget / 2;
 
 			budgetData = data;
 
-			// Load translations
 			const transRes = await fetch('/translations_en.json');
 			translationMap = await transRes.json();
-
-			// Generate initial trivia deferred
 			setTimeout(() => {
 				generateTrivia();
 			}, 1000);
@@ -112,23 +101,11 @@
 		setLocale(next);
 	}
 
-	// Regenerate trivia when tax changes, but debounce/defer it
 	$effect(() => {
-		// Just referencing userTaxContribution to track dependency
-		const _ = userTaxContribution;
-
-		// Only auto-update if data is loaded and we have a value
+		userTaxContribution;
 		if (budgetData && userTaxContribution > 0) {
-			// Debounce/defer to avoid blocking input or render
 			const timer = setTimeout(() => {
-				// Re-check availability inside callback
 				if (!budgetData) return;
-
-				// Don't regenerate if we already have one that works,
-				// unless the user specifically asks (which calls the function directly)
-				// OR if the tax change significantly alters the value.
-				// Actually, let's only update the AMOUNT of the current trivia if it exists,
-				// rather than picking a new random one, to save performance.
 				if (currentTrivia) {
 					const totalForTerm = findItemSum(budgetData.data, currentTrivia.config.search);
 					if (totalForTerm > 0) {
@@ -229,9 +206,6 @@
 	}
 
 	let userTaxContribution = $derived(Math.floor(calculateGermanTax(annualIncome) * 0.575));
-
-	// Toggle for showing raw budget vs personal receipt
-	let displayMode = $state('personal'); // 'personal' or 'total'
 </script>
 
 <div
@@ -241,10 +215,16 @@
 	<div class="mb-8 w-full max-w-2xl space-y-6 text-center">
 		<div class="flex justify-end gap-3">
 			<a
-				href="/higher-or-lower"
+				href={resolve('/higher-or-lower')}
 				class="rounded-full bg-blue-100 px-3 py-1 text-xs font-bold text-blue-700 uppercase transition-all hover:bg-blue-200"
 			>
 				🎮 {m.game_title()}
+			</a>
+			<a
+				href={resolve('/abitur-2025')}
+				class="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-800 uppercase transition-all hover:bg-amber-200"
+			>
+				Abitur 2025
 			</a>
 			<button
 				onclick={toggleLanguage}
@@ -393,7 +373,7 @@
 					Loading Budget Data...
 				</div>
 			{:else if budgetData}
-				{#each budgetData.data as item, i}
+				{#each budgetData.data as item, i (item.l)}
 					<ReceiptItem
 						{item}
 						currency="EUR"

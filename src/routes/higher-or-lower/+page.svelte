@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { scale, fade } from 'svelte/transition';
+	import { resolve } from '$app/paths';
+	import { SvelteSet } from 'svelte/reactivity';
+	import { scale } from 'svelte/transition';
 	import type { BudgetData, BudgetItem } from '$lib/types';
 	import * as m from '$paraglide/messages';
 	import { getLocale, setLocale } from '$paraglide/runtime';
@@ -15,7 +17,7 @@
 	let gameState = $state<'loading' | 'playing' | 'gameover'>('loading');
 	let showResult = $state<'correct' | 'wrong' | null>(null);
 	let difficulty = $state<'medium' | 'hard'>('medium');
-	let usedIndices = new Set<number>();
+	let usedIndices = new SvelteSet<number>();
 
 	function collectItems(
 		nodes: BudgetItem[],
@@ -151,7 +153,7 @@
 		</p>
 		<p class="text-stone-400">{m.game_best()}: {highScore}</p>
 		<div class="flex justify-center gap-2">
-			{#each ['medium', 'hard'] as d}
+			{#each ['medium', 'hard'] as d (d)}
 				<button
 					onclick={() => {
 						difficulty = d as 'medium' | 'hard';
@@ -169,14 +171,16 @@
 			class="rounded-full bg-blue-600 px-8 py-3 text-xl font-bold transition hover:bg-blue-500"
 			>{m.game_try_again()}</button
 		>
-		<a href="/" class="text-sm text-stone-500 underline hover:text-stone-400">{m.game_back()}</a>
+		<a href={resolve('/')} class="text-sm text-stone-500 underline hover:text-stone-400"
+			>{m.game_back()}</a
+		>
 	</div>
 {:else}
 	<div class="relative flex h-screen w-full flex-col overflow-hidden font-sans md:flex-row">
 		<div
 			class="absolute bottom-4 left-4 z-40 flex gap-2 md:top-4 md:bottom-auto md:left-1/2 md:-translate-x-1/2"
 		>
-			{#each ['medium', 'hard'] as d}
+			{#each ['medium', 'hard'] as d (d)}
 				<button
 					onclick={() => difficulty !== d && ((difficulty = d as 'medium' | 'hard'), startGame())}
 					class="rounded-full px-3 py-1 text-xs font-bold uppercase shadow backdrop-blur transition-colors {difficulty ===
@@ -188,7 +192,7 @@
 		</div>
 		<div class="absolute top-4 left-4 z-30 flex gap-2">
 			<a
-				href="/"
+				href={resolve('/')}
 				class="rounded-full bg-white/80 p-2 text-stone-700 shadow backdrop-blur transition hover:bg-white"
 				title={m.game_back()}
 				><svg
